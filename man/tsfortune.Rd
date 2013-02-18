@@ -1,21 +1,11 @@
-\name{read.fortunes}
+\name{tsfortune}
 \alias{print.tsfortune}
-\alias{read.fortunes}
-\alias{read.tsfortunes}
-\alias{toLatex.tsfortune}
 \alias{tsfortune}
 \alias{tsfortunes}
 \title{R Fortunes}
 \usage{
-  read.fortunes(file = NULL)
-
   tsfortune(which = NULL, fortunes.data = NULL,
     fixed = TRUE, ...)
-
-  \method{print}{tsfortune} (x, width = NULL, ...)
-
-  \method{toLatex}{tsfortune} (object, number = FALSE,
-    width = c(1, 0.85), ...)
 }
 \arguments{
   \item{which}{An integer specifying the row number of
@@ -33,18 +23,7 @@
   string or (if \code{FALSE}) with regular expressions.}
 
   \item{\dots}{potential further arguments passed to
-  \code{\link{grep}}.}
-
-  \item{x}{an object of class \code{"fortune"}, usually a
-  single row from \code{fortunes.data}.}
-
-  \item{width}{integer specifying the character width.  By
-  default \code{getOption("width")} is used.}
-
-  \item{file}{A character string giving a fortune database
-  in csv format (in UTF-8 encoding).  By default all csv
-  files in the data directory of the fortune package are
-  used.
+  \code{\link{grep}}.
 
   \code{read.fortunes()} returns a data frame of fortunes,
   each row contains:}
