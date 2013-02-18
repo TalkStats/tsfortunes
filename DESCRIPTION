@@ -1,0 +1,12 @@
+Package: tsfortunes
+Version: 1.0-0
+Date: 2013-02-17
+Title: TalkStats Fortunes
+Author: Dason Kurkiewicz and the TalkStats community (fortunes).
+Maintainer: Dason Kurkiewicz <dasonk@iastate.edu>
+Description: TalkStats Fortunes
+Imports:
+    utils
+License: GPL-2
+Collate:
+    'fortunes.R'
